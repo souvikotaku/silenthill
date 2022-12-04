@@ -96,12 +96,12 @@ export default function Home() {
                   In Progress
                 </a>
               </Link> */}
-              {/* <button type="button" className="btn btn-warning" disabled>
+              <button type="button" className="btn btn-warning" disabled>
                 Work In Progress
-              </button> */}
-              <Link href="/games/silentHill2" legacyBehavior>
+              </button>
+              {/* <Link href="/games/silentHill2" legacyBehavior>
                 <a className="btn btn-primary">Go</a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
