@@ -1,7 +1,7 @@
 
 Its a SILENT HILL webite i made using NEXT JS
 
-LIVE APP will be deployed soon
+LIVE APP is deploed here https://silenthill.vercel.app/
 
 THIS IS THE API USED (still more content to be added)
 https://souvikotaku.github.io/silenthillapi/data.json
