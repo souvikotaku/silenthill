@@ -11,17 +11,16 @@ const PageNo = () => {
   const [monsterData2, setMonsterData2] = useState([]);
   useEffect(() => {
     const monsterFetchUrl =
-      "https://silenthillservice.herokuapp.com/api/silent-hill-monsters";
+      "https://souvikotaku.github.io/silenthillapi/data.json";
 
     const fetchData = async () => {
       const response = await fetch(monsterFetchUrl);
       const data = await response.json();
-      console.log(data.data);
-      console.log(data.data[0].attributes?.silenthill1monsters);
+      console.log("silent hill data", data);
       setMonsterData(
         pageNumber == "silentHill1"
-          ? data.data[0].attributes?.silenthill1monsters
-          : data.data[0].attributes?.silenthill2monsters
+          ? data && data[0].monsters
+          : data && data[0].monsters
       );
       // setMonsterData2(data.data[0].attributes?.silenthill2monsters);
     };

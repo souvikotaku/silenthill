@@ -7,7 +7,7 @@ import react, { useState, useEffect } from "react";
 export default function Home() {
   // useEffect(() => {
   //   const monsterFetchUrl =
-  //     "https://pure-island-40898.herokuapp.com/api/silenthill1-monsters";
+  //     "https://souvikotaku.github.io/silenthillapi/data.json";
 
   //   const fetchData = async () => {
   //     const response = await fetch(monsterFetchUrl);
@@ -63,7 +63,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.mainCardDiv}>
           <div className={styles.innerCard}>
-            <h5 className="card-header">Silent Hill 1 monster list</h5>
+            <h5 className="card-header" style={{ color: "red" }}>
+              Silent Hill 1 monster list
+            </h5>
             <div className={styles.innerCardBody}>
               <h5 className="card-title" style={{ color: "transparent" }}>
                 Special title treatment
@@ -78,7 +80,9 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.innerCard}>
-            <h5 className="card-header">Silent Hill 2 monster list</h5>
+            <h5 className="card-header" style={{ color: "red" }}>
+              Silent Hill 2 monster list
+            </h5>
             <div className={styles.innerCardBody2}>
               <h5 className="card-title" style={{ color: "transparent" }}>
                 Special title treatment
